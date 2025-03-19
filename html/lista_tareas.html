@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de tareas</title>
+    <link rel="shortcut icon" href="../icono/pngtree-to-do-vector-element-png-image_7143502.png" type="image/png">
+    <link rel="stylesheet" href="../css/lista_tareas.css">
+</head>
+<body>
+    <div class="container">
+
+    <h1>LISTA DE TAREAS</h1>
+
+    <!-- Formulario para agregar tareas -->
+    <form id="formulario">
+        <input type="text" id="nuevaTarea" placeholder="Escribir tarea" required>
+        <button  type="submit" > Agregar</button>
+    </form>
+
+    <hr>
+    <!-- Filtro para la busqueda de las tareas -->
+    <div class="filtros">
+        <button id="total" >Total</button>
+        <button id="pendientes" >Pendientes</button>
+        <button id="completadas" >Completadas</button>
+    </div>
+
+    <hr>
+    <!-- Lista de tareas -->
+    <ul id="lista_tareas" ></ul>
+    </div>
+
+    <script src="../js/lista_tareas.js" ></script>
+</body>
+</html>

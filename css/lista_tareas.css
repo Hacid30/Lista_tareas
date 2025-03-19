@@ -1,0 +1,86 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgba(189, 186, 186, 0.26);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container {
+    background-color: white;
+    margin: 50px auto;
+    padding: 20px;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px  rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+form input {
+    padding: 10px;
+    border-radius: 4px;
+    width: 70%;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #218838;
+}
+
+.filtros {
+    margin-bottom: 20px;
+}
+
+.filtros button {
+    margin: 0 5px;
+    background-color: #007bff;
+}
+
+
+.filtros button:hover {
+    background-color: #0056b3;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid  #ccc;
+}
+
+li.completada {
+    text-decoration: line-through;
+    color: #888;
+}
+
+li button {
+    background-color: #dc3545;
+    padding: 5px 10px;
+}
+
+li button:hover {
+    background-color: #c82333;
+}
