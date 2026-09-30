@@ -36,7 +36,7 @@ formulario.addEventListener('submit', (e) => {
 function mostrarTarea( filtro = "todas" ){
     listaTareas.innerHTML = "";
 
-    const filtroTareas = tareas.filter( tarea =>{
+    const filtroTareas = tareas.filter( tarea => {
         if(filtro === "pendientes") return !tarea.completada;
         if(filtro === "completadas") return tarea.completada;
         return true;
